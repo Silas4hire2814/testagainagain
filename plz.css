@@ -1,8 +1,5 @@
-
-
-
 body {
-background: #06D57C;
+background: #0999DE;
 text-align: left;
 }
 #main {
@@ -10,13 +7,23 @@ text-align: left;
 	height: 600px;
 	background: #06D57C;
 	margin: 2px auto;
-	border:solid 1px #057E4A;
+	border:solid 500px #057E4A;
 }
 h1 {
 	text-align: center;
 	font-family:"Georgia";
 	font: 24pt;
 	color: #000000;
+	
+
+}
+	
+p {
+	border-width: 10px;
+	border-style: solid;
+	padding: 5px;
+	border-radius: 10px;
+	
 }
 hr {
 	height: 2px;
@@ -34,7 +41,16 @@ h2 {
 	font-family:"Georgia";
 	font: 2pt;
 	color: #000000;
+	border: solid 10px black;
 }
 h3 {
 	text-align: left;
+	border: solid 3px;
+	padding: 5px;
+
+}
+p {
+	font-family:"georgia";
+	font-size: 12pt;
+	text-indent: 8px;
 }
