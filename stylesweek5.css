@@ -1,0 +1,36 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  text-align: left;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+	background: lightgray;
+  height: fill; 
+}
+
+.logo {
+  margin-bottom: 25px; 
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+  padding: 10px; 
+}
+
+a:hover {
+  background: #073145; 
+  color: white; 
+}
+h4 {
+	border: solid 3px;
+	padding: 5px;
+	border-radius: 10px;
+	background: #073145;
+
+}	
