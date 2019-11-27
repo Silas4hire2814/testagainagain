@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+  box-sizing: border-box;
+	background-color: #073145;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  text-align: left;
+  display: flex; /* display the header as a flex parent */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+	background: lightgray;
+  height: fill; /* scale the height to header's content */
+}
+
+.logo {
+  margin-bottom: 25px; /* space under the logo */
+}
+
+a {
+  text-decoration: none; /* delete default underline */
+  color: inherit; /* delete default color */
+  padding: 10px; /* space around text */
+}
+
+a:hover {
+  background: #073145; /* change background color on hover */
+  color: white; /* and color */
+}
+h4 {
+	border: solid 3px;
+	padding: 5px;
+	border-radius: 10px;
+	background: #073145;
+
+}	
