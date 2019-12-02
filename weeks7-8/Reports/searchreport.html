@@ -1,0 +1,223 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Search Engine Report</title>
+    <style>
+      html {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer {
+        border-top: 6px solid #999;
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+      header h1 {
+        background-color: #336699;
+        color: #ccc;
+        padding: 0.5em;
+        border-top: 5px solid #6699cc;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }
+      header nav ul {
+        list-style-type: none;
+        background-color: #999;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #666;
+      }
+      dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #top-dl dd {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+      #top-dl dd:last-child {
+        border-bottom: 2px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+      .smaller {
+        font-size: 0.8em;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 6px;
+      }
+      td.unused {
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Search engine report</h1>
+      <div w3-include-html="nav.html"></div>
+      <!-- reference the location of your nav.html -->
+    </header>
+    <main>
+      <section>
+        <h2>Search engines</h2>
+        <dl id="top-dl">
+          <dt>How does a search engine work?</dt>
+          <dd>First, search engine bots or spiders crawls through the internet downloading web pages and following links to those websites that are available. Next a collection of websites that the web spiders collected is put in an algorithm that matches the search term which should produce the best results. </dd>
+          <dt>
+            Why do different search-engines give different ranking to websites
+            for the same search phrase?
+          </dt>
+          <dd>Unless someone was somehow cheating or stealing, most search bot spiders are made differently. They have different methods of getting web pages and search results. A web crawler from yahoo will diffrent and get different results from the same search compared to a search from google or bing</dd>
+          <dt>What is a &lt;meta /&gt; tag?</dt>
+          <dd>“The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable. Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.” </dd>
+          <dt>What is the purpose for Keyword and Description meta tags?</dt>
+          <dd>I would have to think that keyword and description meta tags help search bots find certain information on your web page and tell it what the website is about. </dd>
+          <dt>Why might you include meta tags in your pages?</dt>
+          <dd>That way people can find my website easier when looking for certain information or when they are looking for something. My page has a higher chance of showing up.</dd>
+          <dt>
+            Do meta tags make your pages more easily searchable or improve its
+            ranking?
+          </dt>
+          <dd>Yes? I couldn't find any answers online but they should.</dd>
+          <dt>
+            What are several ways that you can publicize your personal website
+            project and make it more visible on the web?
+          </dt>
+          <dd>Good and unique meta tags will help people find your website easier since they are looking for something unique and if your tags are unique enough, yet important to your site, then people should be able to find it easier.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Comparable websites</h2>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>
+                Words used in <em>Description</em> meta tags
+                <span class="smaller"
+                  >(or "none" if no description tags are used)</span
+                >
+              </th>
+              <th>
+                Words used in <em>Keyword</em> meta tags
+                <span class="smaller"
+                  >(or "none" if no keyword tags are used)</span
+                >
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">Amazon.com</th>
+              <td colspan="4"><a href="https://www.amazon.com/">Amazon</a></td>
+            </tr>
+            <tr>
+              <td class="unused">&nbsp;</td>
+              <td>Amazon.com, buy now, shopping, Electronics, 1-day delivery ect.</td>
+              <td>Furniture, 1 day delivery, Amazon.com, Video Games, Shopping,Clothing,Shoes,Movies,Prime,Music,Toys</td>
+              <td>Shipping,Prime, Music, Amazon, Online shopping, Holiday, Christmas.</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Gamestop.com</th>
+              <td colspan="4"><a href="https://www.gamestop.com/">Gamestop</a></td>
+            </tr>
+            <tr>
+              <td class="unused">&nbsp;</td>
+              <td>Gamestop.com, Trade in, Online Shopping, Accesories, Toys and Collectables, Clothing.</td>
+              <td>Find games, Power-up rewards, Gamestop, Featured offers</td>
+              <td>Gamestop, Video games, Sites near me, shopping, trade in, Controllers, Consoles.</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Best buy</th>
+              <td colspan="4"><a href="https://www.bestbuy.com/">Bestbuy.com</a></td>
+            </tr>
+            <tr>
+              <td class="unused">&nbsp;</td>
+              <td>Best Buy, Electronics, TV's,Accesories,Applience's</td>
+              <td>Shopping, Store, Electronics,</td>
+              <td>Best Buy, Online shopping, Store, TVs, appliance's, Video Games, Consoles</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Research-based updates</h2>
+        <dl id="bottom-dl">
+          <dt>
+            Based on your research, suggest appropriate updates to your
+            website's titles and headings.
+          </dt>
+          <dd><p>Link main Smash Ultimate website</p></dd>
+          <dt>
+            Based on your research, create a Description meta tag and a Keywords
+            meta tag (and an Author meta tag) for inclusion your site.
+          </dt>
+          <dd>
+            <p><strong>Description:</strong></p>
+            <p>meta "description" content: Link guide.</p>
+          </dd>
+          <dd>
+            <p><strong>Keywords:</strong></p>
+            <p>Link guide, Smash Ultimate, Link, Switch, Tech</p>
+          </dd>
+          <dd>
+            <p><strong>Author:</strong></p>
+            <p>meta name="author" content="silas"<p>
+          <dt>
+            List three techniques to publicize your site that makes sense for
+            its purpose and its audience.
+          </dt>
+          <dd>
+            <p>Add the correct meta tags</p>
+            <p>Upload it to a server with good band-width</p>
+            <p>Share it with people who might be interested in it.</p>
+          </dd>
+        </dl>
+      </section>
+    </main>
+    <footer>
+      &copy;Silas SImpson!
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- If you are wanting to use includes throughout your site, you'll have to change the above link to be whatever 
+      location your script is in. For me, it would be "/bit112-fall-2019/scripts/includes.js" because my site is 
+      https://alboss-cascadia.github.io/bit112-fall-2019/ -->
+
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>
