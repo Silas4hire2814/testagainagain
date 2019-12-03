@@ -1,7 +1,44 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  text-align: left;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+	background: black;
+  height: fill; 
+}
+
+.logo {
+  margin-bottom: 25px; 
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+  padding: 10px; 
+}
+
+a:hover {
+  background: #073145; 
+  color: white; 
+}
+h4 {
+	border: solid 3px;
+	padding: 5px;
+	border-radius: 10px;
+	background: #073145;
+
+}	
 
 body {
 background: #0999DE;
 text-align: left;
+color: white;
 }
 #main {
 	width: 1000px;
@@ -14,7 +51,7 @@ h1 {
 	text-align: center;
 	font-family:"Georgia";
 	font: 24pt;
-	color: #000000;
+	color: #ffffff;
 	
 
 }
@@ -28,30 +65,31 @@ p {
 }
 hr {
 	height: 2px;
-	color: #000000;
+	color: #ffffff;
 }
 p{
 	font-family:"Georgia";
 	font-size: 12pt;
 	text-align: left;
 	text-indent: 8px;
-	color: #000000;
+	color: #ffffff;
 }	
 h2 {
 	text-align: center;
 	font-family:"Georgia";
 	font: 2pt;
-	color: #000000;
+	color: #ffffff;
 	border: solid 10px black;
 }
 h3 {
 	text-align: left;
 	border: solid 3px;
 	padding: 5px;
-
+	color: #ffffff;
 }
 p {
 	font-family:"georgia";
 	font-size: 12pt;
 	text-indent: 8px;
+	color: #ffffff;
 }
