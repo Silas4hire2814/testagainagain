@@ -1,0 +1,37 @@
+.container {
+	text-align: center;
+	font-size: 30px;
+}
+
+header {
+  text-align: left;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+	background: lightgray;
+  height: fill; 
+}
+
+.logo {
+  margin-bottom: 25px; 
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+  padding: 10px; 
+}
+
+a:hover {
+  background: #073145; 
+  color: white; 
+}
+#main {
+	background: #06D57C;
+}
+body {
+background: #1F618D;
+text-align: left;
+color: black;
+}
